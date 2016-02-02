@@ -6,6 +6,7 @@ import Home from './components/Home.vue'
 import Dashboard from './components/Dashboard.vue'
 import Cordova from './components/Cordova.vue'
 import Promos from './components/Promos.vue'
+import Forums from './components/Forums.vue'
 
 Vue.use(VueRouter)
 
@@ -44,7 +45,10 @@ router.map({
   },
   '/promos': {
     component: Promos
-  }
+  },
+  '/forum': {
+    component: Forums
+  },
 })
 // Now we can start the app!
 // The router will create an instance of App and mount to
