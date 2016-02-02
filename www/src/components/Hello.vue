@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem beatae blanditiis, enim eveniet id magnam quae quod recusandae sint totam, vel, vitae voluptatem? Corporis cupiditate doloribus nisi veniam vitae.
   </div>
 </template>
 
@@ -21,5 +22,6 @@ export default {
 <style>
   .hello {
     background-color: #00b9d8;
+    border: 1px;
   }
 </style>
